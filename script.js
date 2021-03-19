@@ -63,12 +63,9 @@ if (links.length > 0) {
             top: gotoBlockValue,
             behavior: 'smooth',
          })
-         if (document.body.style.overflow == 'hidden') {
-            document.body.style.overflow = 'visible';
+
             burgerButton.classList.remove('open')
-         } else {
-            document.body.style.overflow = 'hidden'
-         }
+      
       
          e.preventDefault()
 
